@@ -18,4 +18,6 @@ https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a
 
 
 ## Our pipeline
+Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
+
 <img src = "figs/pipeline.png" width='840' height='300'>
