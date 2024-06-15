@@ -78,7 +78,7 @@ pip install -r requirements.txt
 1. Downloading pre-trained checkpoints
 
 | Model              | Description                                                                           | :link: Download Links    |
-|  -----             |  -----------------------------------------------------------------------------------  |  ----------------------  |
+|  :-----:           |  :---------------------------------------------------------------------------------:  |  ----------------------  |
 |   frame dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.   | <a href="">Baidu Disk</a>|
 |   video dehazing   |   Video dehazing module trained on video frame sequence data.                         | <a href="">Baidu Disk</a>|
 
