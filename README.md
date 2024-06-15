@@ -72,7 +72,16 @@ conda activate DVD
 
 # install python dependencies
 pip install -r requirements.txt
+
+# install DCN V2
+cd ops/DCNv2
+python setup.py build develop # build
+python test.py # run examples and check
+
 ```
+
+
+**Note** 
 
 ## :rocket: Get Started
 
