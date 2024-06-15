@@ -13,6 +13,7 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2405.09996)
 [![Website](figs/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DVD/index.html)
+[![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=BHFVx8yv4SY)
 
 [[Poster](figs/DVD_poster.pdf)] [[YouTube](https://www.youtube.com/watch?v=BHFVx8yv4SY)]
 
