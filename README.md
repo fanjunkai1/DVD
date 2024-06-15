@@ -41,11 +41,7 @@ To collect pairs of hazy/clear video pairs, follow these steps:
 3). Video cropping is employed to ensure that the starting and ending points of the collected hazy/clear video pairs are consistent.
 
 
-## 🎬 Video demo
-To validate the stability of our video dehazing results, we present a video result captured in a real driving
-environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
 
-https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
 
 
 ## :hammer: Installation
@@ -54,6 +50,14 @@ https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a
 - PyTorch == 1.11 with CUDA 11.3
 - torchvision ==0.12.0
 - conda 4.12
+
+## 🎬 Video demo
+To validate the stability of our video dehazing results, we present a video result captured in a real driving
+environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
+
+https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
+
+
 
 ## 🎓 Citation
 If you are interested in this work, please consider citing:
