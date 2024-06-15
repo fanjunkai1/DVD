@@ -75,6 +75,10 @@ pip install -r requirements.txt
 
 ## :rocket: Get Started
 
+1. Downloading pre-trained checkpoints
+
+2. Organize data for training;
+
 
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
