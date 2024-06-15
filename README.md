@@ -87,7 +87,7 @@ pip install -r requirements.txt
 <tbody>
 <tr>
     <td>frame dehazing</td>
-    <th>the frame dehazing was pre-trained on image data.</th>
+    <th>The frame dehazing module was pre-trained on image data.</th>
     <th rowspan="4">
     [<a href="">Google Drive</a>] 
     [<a href="">Baidu Disk</a>]
