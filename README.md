@@ -5,8 +5,8 @@
 [Kun Wang](https://github.com/w2kun/),
 [Yijun Yang](https://yijun-yang.github.io/),
 [Jianjun Qian](http://www.patternrecognition.asia/qian/),
-[Jun Li](https://sites.google.com/view/junlineu/),
-[Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)
+[Jun Li<sup>*</sup>](https://sites.google.com/view/junlineu/),
+[Jian Yang<sup>*</sup>](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)(* indicates corresponding author)
 
 PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 
