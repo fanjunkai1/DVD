@@ -132,14 +132,14 @@ pip install -r requirements.txt
 
 **Note**: for organizing the data structure above, you can use the script we provide with the following commands:
 ```
-python reorganize_data.py --input_frames_num 2  \
---index_txt_path ./datasets/foggy_video/train_video/TrainMatchFrames/  \
---save_hazyframe_seq_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq  \
+python reorganize_data.py --input_frames_num 2  
+--index_txt_path ./datasets/foggy_video/train_video/TrainMatchFrames/  
+--save_hazyframe_seq_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq  
 --save_clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe
 ```
 ```
-python generate_meta_info.py --hazyframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq/  \
---clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe/ \
+python generate_meta_info.py --hazyframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq/  
+--clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe/ 
 --save_meta_info_path ./data/meta_info/meta_info_GoPro_train_frames_seq.txt
 ```
 
