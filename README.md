@@ -88,6 +88,11 @@ pip install -r requirements.txt
 
 ~~~
 {DVD ROOT}
+|-- pre_dehazing
+|   |-- models
+|   |   |-- remove_hazy_model_256x256.pth
+|-- pretrained
+|   |-- spynet_sintel_final-3d2a1287.pth
 |-- datasets
 |   |-- foggy_video
 |   |   |-- train_video
@@ -122,11 +127,6 @@ pip install -r requirements.txt
 |   |  |-- meta_info_GoPro_train_frames_seq.txt
 |   |  |-- meta_info_GoPro_test_frames_seq.txt
 |   |  |-- meta_info_GoPro_val_frames_seq.txt
-|-- pre_dehazing
-|   |-- models
-|   |   |-- remove_hazy_model_256x256.pth
-|-- pretrained
-|   |-- spynet_sintel_final-3d2a1287.pth
 ~~~
 
 **Note**: for organizing the data structure above, you can use the script we provide with the following commands:
