@@ -66,6 +66,13 @@ If you are interested in this work, please consider citing:
   pages={26109--26119},
   year={2024}
 }
+
+@article{fan2023non,
+  title={Non-aligned supervision for Real Image Dehazing},
+  author={Fan, Junkai and Guo, Fei and Qian, Jianjun and Li, Xiang and Li, Jun and Yang, Jian},
+  journal={arXiv preprint arXiv:2303.04940},
+  year={2023}
+}
 ```
 
 ## Acknowledgment
