@@ -114,15 +114,8 @@ pip install -r requirements.txt
 |   |   |   |   |-- 1_hazy&clear_frames.txt
 |   |   |   |   |-- ...
 |   |   |-- test_video
-|   |   |   |-- TestClipsFrames
-|   |   |   |   |-- ...
-|   |   |   |-- TestMatchFrames
-|   |   |   |   |-- ...
 |   |   |-- val_video
-|   |   |   |-- ValClipsFrames
-|   |   |   |   |-- ...
-|   |   |   |-- ValMatchFrames
-|   |   |   |   |-- ...
+
 |-- data
 |   |--meta_info
 |   |  |-- meta_info_GoPro_train_frames_seq.txt
