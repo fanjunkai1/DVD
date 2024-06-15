@@ -46,8 +46,9 @@ To collect pairs of hazy/clear video pairs, follow these steps:
     Additionally, to ensure the reference clear video matches the hazy scene, we align clear video capture with the starting point of the hazy videos. 
 3). Video cropping is employed to ensure that the starting and ending points of the collected hazy/clear video pairs are consistent.
 
-[GoProHazy]()
-[DrivingHazy]()
+Our real-world hazy video dataset can be downloaded here:
+[GoProHazy](),
+[DrivingHazy]().
 [InternetHazy]()
 
 
