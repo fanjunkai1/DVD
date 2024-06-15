@@ -95,7 +95,9 @@ pip install -r requirements.txt
 <tr>
     <td>video dehazing</td>
     <th>Video dehazing module trained on video frame sequence data.</th>
+    <th rowspan="3">
     [<a href="">Baidu Disk</a>]
+    </th>
 </tr>
 </tbody>
 </table>
