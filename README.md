@@ -19,7 +19,11 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
-## Our pipeline
+## :fire: Updates
+
+- [06/2024] We created the project homepage and the GitHub README.
+
+## :mega: Our pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
 
 <img src = "figs/pipeline.png" width='840' height='300'>
@@ -44,7 +48,7 @@ environment and compare it with the latest video dehazing state-of-the-art metho
 https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
 
 
-## 🛠️ Setup
+## :hammer: Installation
 - Ubuntu 18.04
 - Python == 3.9
 - PyTorch == 1.11 with CUDA 11.3
