@@ -88,14 +88,14 @@ pip install -r requirements.txt
 <tr>
     <td>frame dehazing</td>
     <th>Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.</th>
-    <th rowspan="3">
+    <th rowspan="2">
     [<a href="">Baidu Disk</a>]
     </th>
 </tr>
 <tr>
     <td>video dehazing</td>
     <th>Video dehazing module trained on video frame sequence data.</th>
-    <th rowspan="3">
+    <th rowspan="2">
     [<a href="">Baidu Disk</a>]
     </th>
 </tr>
