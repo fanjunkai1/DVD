@@ -57,6 +57,19 @@ To collect pairs of hazy/clear video pairs, follow these steps:
 - torchvision ==0.12.0
 - conda 4.12
 
+```
+# git clone this repository
+git clone https://github.com/fanjunkai1/DVD.git
+cd DVD
+
+# create new anaconda env
+conda create -n DVD python=3.9
+conda activate DVD
+
+# install python dependencies
+pip install -r requirements.txt
+```
+
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
 environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
