@@ -153,7 +153,14 @@ CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=
 ```
 
 
-### Inference ###
+## ⚡ Inference DVD
+
+```
+python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_g_latest.pth
+--input_path input_video_frame
+--dehazing_model_path pre_dehazing/models/remove_hazy_model_256x256.pth
+--save_path out_video_frame
+```
 
 
 ## 🎬 Video demo
@@ -184,8 +191,8 @@ If you are interested in this work, please consider citing:
 }
 ```
 
-## Acknowledgment
+## 🤗 Acknowledgment
 This code is based on the [BasicSR](https://github.com/XPixelGroup/BasicSR). Thank them for their outstanding work.
 
-## Contact
+## 📧 Contact
 Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
