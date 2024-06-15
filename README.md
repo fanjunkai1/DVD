@@ -83,7 +83,27 @@ pip install -r requirements.txt
 |   video dehazing   |   Video dehazing module trained on video frame sequence data.                         | <a href="">Baidu Disk</a>|
 
 
-2. Organize data for training;
+2. Organize data for training, using GoPro as an example, as follow:
+~~~
+* **GoProHazy**
+~~~
+{DVD ROOT}
+|-- datasets
+|   |-- foggy_video
+|   |   |-- train_video
+|   |   |   |-- TrainClipsFrames
+|   |   |   |   |-- hazyframe_seq
+|   |   |   |   |   |-- 000001.jpg
+|   |   |   |   |   |-- ...
+|   |   |   |   |-- clearframe
+|   |   |   |   |   |-- gt.txt
+|   |   |   |-- TrainMatchFrames   
+|   |   |   |-- ...
+|   |   |-- val_video
+|   |   |   |-- ...
+|   |   |-- test_video
+|   |   |   |-- ...
+~~~
 
 
 ## 🎬 Video demo
