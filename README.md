@@ -112,12 +112,12 @@ pip install -r requirements.txt
 |   |   |   |-- TrainMatchFrames   
 |   |   |   |   |-- 1_hazy&clear_frames.txt
 |   |   |   |   |-- ...
-
+|   |   |-- test_video
 |   |   |   |-- TestClipsFrames
 |   |   |   |   |-- ...
 |   |   |   |-- TestMatchFrames
 |   |   |   |   |-- ...
-
+|   |   |-- val_video
 |   |   |   |-- ValClipsFrames
 |   |   |   |   |-- ...
 |   |   |   |-- ValMatchFrames
