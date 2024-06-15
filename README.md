@@ -87,10 +87,8 @@ pip install -r requirements.txt
 <tbody>
 <tr>
     <td>frame dehazing</td>
-    <th>The frame dehazing module was pre-trained on image data. Prioritizing frame dehazing offers two key advantages. 
-        First, easily acquiring non-aligned image pairs simplifies the training process with a large dataset, leading to high-quality pre-processing outcomes. 
-        Second, superior frame dehazing enhances the video dehazing stage’s capability to learn pixel correlations among adjacent frames.</th>
-    <th rowspan="4">
+    <th>The frame dehazing module was pre-trained on image data.</th>
+    <th rowspan="3">
     [<a href="">Google Drive</a>] 
     [<a href="">Baidu Disk</a>]
     </th>
