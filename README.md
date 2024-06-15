@@ -76,33 +76,15 @@ pip install -r requirements.txt
 ## :rocket: Get Started
 
 1. Downloading pre-trained checkpoints
-<table>
-<thead>
-<tr>
-    <th>Model</th>
-    <th> Description </th>
-    <th>:link: Download Links </th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>frame dehazing</td>
-    <th>Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.</th>
-    <th rowspan="1">
-    [<a href="">Baidu Disk</a>]
-    </th>
-</tr>
-<tr>
-    <td>video dehazing</td>
-    <th>Video dehazing module trained on video frame sequence data.</th>
-    <th rowspan="1">
-    [<a href="">Baidu Disk</a>]
-    </th>
-</tr>
-</tbody>
-</table>
 
-3. Organize data for training;
+| Model              | Description                                                                           | :link: Download Links    |
+|  -----             |  -----------------------------------------------------------------------------------  |  ----------------------  |
+|   frame dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.   | <a href="">Baidu Disk</a>|
+|   video dehazing   |   Video dehazing module trained on video frame sequence data.                         | <a href="">Baidu Disk</a>|
+
+
+
+2. Organize data for training;
 
 
 ## 🎬 Video demo
