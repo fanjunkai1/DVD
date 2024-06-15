@@ -84,9 +84,8 @@ pip install -r requirements.txt
 |   video dehazing   |   Video dehazing module trained on video frame sequence data.                         | <a href="">Baidu Disk</a>|
 
 
-2. Organize data for training, using GoPro as an example, as follow:
+2. Organize data for training, using GoProHazy as an example, as follow:
 
-* **GoProHazy**
 ~~~
 {DVD ROOT}
 |-- datasets
