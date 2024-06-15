@@ -21,9 +21,9 @@ This repository represents the official implementation of the paper titled "Driv
 
 ## :fire: Updates
 
-- [06/2024] We created the project homepage and the GitHub README.
+- [06/2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
 
-## :mega: Our pipeline
+## :mega: Pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
 
 <img src = "figs/pipeline.png" width='840' height='300'>
