@@ -165,7 +165,7 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 ```
 
 ## 📊 Results
-
+<img src = "figs/results.png" width='840' height='300'>
 
 
 ## 🎬 Video demo
