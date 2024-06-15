@@ -28,6 +28,12 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 
 
+To collect pairs of hazy/clear video pairs, follow these steps: 
+1). As illustrated in Collection Method (a), we capture hazy videos in various scenes under hazy weather conditions. 
+2). In Collection Method (b), to maintain consistent scene brightness, we choose overcast days with good visibility for capturing clear video pairs. 
+    Additionally, to ensure the reference clear video matches the hazy scene, we align clear video capture with the starting point of the hazy videos. 
+3). Video cropping is employed to ensure that the starting and ending points of the collected hazy/clear video pairs are consistent.
+
 
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
