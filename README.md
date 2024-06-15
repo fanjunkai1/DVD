@@ -93,10 +93,17 @@ pip install -r requirements.txt
 |   |   |-- train_video
 |   |   |   |-- TrainClipsFrames
 |   |   |   |   |-- hazyframe_seq
-|   |   |   |   |   |-- 000001.jpg
-|   |   |   |   |   |-- ...
+|   |   |   |   |   |-- 00001_hazyframe_seq
+|   |   |   |   |   |   |-- 00001
+|   |   |   |   |   |   |   |-- frame_0_hazy.jpg
+|   |   |   |   |   |   |   |-- frame_1_hazy.jpg
+|   |   |   |   |   |   |-- ...
+
 |   |   |   |   |-- clearframe
-|   |   |   |   |   |-- gt.txt
+|   |   |   |   |   |-- 00001_clearframe
+|   |   |   |   |   |   |-- 00001
+|   |   |   |   |   |   |   |-- frame_0_clear.jpg
+|   |   |   |   |   |   |   |-- frame_1_clear.jpg
 |   |   |   |-- TrainMatchFrames   
 |   |   |   |-- ...
 |   |   |-- val_video
