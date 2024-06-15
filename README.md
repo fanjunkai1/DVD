@@ -35,7 +35,7 @@ alignment, ultimately producing high-quality results. (b) The illustration depic
 frames through the utilization of an adaptive sliding window using feature cosine similarity. **Our input consists of two frames**.
 
 
-## GoProHazy, DrivingHazy (real-world hazy video datasets)
+## 💡 GoProHazy, DrivingHazy (real-world hazy video datasets)
 
 <img src = "figs/collection-device.png" width='410' height='200'><img src = "figs/collection-method.png" width='410' height='200'>
 
