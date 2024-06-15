@@ -28,6 +28,12 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 <img src = "figs/pipeline.png" width='840' height='300'>
 
+The overall framework of our driving-video dehazing (DVD) comprising two crucial components: frame matching and video
+dehazing. This involves applying frame dehazing to proactively eliminate haze from individual frames. One significant benefit is is the
+effectiveness and efficiency of our method in training the video dehazing network using authentic driving data without requiring strict
+alignment, ultimately producing high-quality results. (b) The illustration depicts the matching process of non-aligned, clear reference
+frames through the utilization of an adaptive sliding window using feature cosine similarity. Our input consists of two frames.
+
 
 ## GoProHazy, DrivingHazy (real-world hazy video datasets)
 
