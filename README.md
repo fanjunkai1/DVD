@@ -74,6 +74,7 @@ pip install -r requirements.txt
 ```
 
 ## :rocket: Get Started
+### Train ###
 
 1. Downloading pre-trained checkpoints
 
@@ -118,6 +119,8 @@ pip install -r requirements.txt
 |   |   |   |-- ValMatchFrames
 |   |   |   |   |-- ... 
 ~~~
+
+### Inference ###
 
 
 ## 🎬 Video demo
