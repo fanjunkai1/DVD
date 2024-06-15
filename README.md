@@ -8,8 +8,8 @@
 [Jun Li](https://sites.google.com/view/junlineu/),
 [Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)
 
-PCA Lab, Nanjing University of Science and Technology, China
-The Hong Kong University of Science and Technology (Guangzhou)
+PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
+
 
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2405.09996)
 [![Website](figs/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DVD/index.html)
