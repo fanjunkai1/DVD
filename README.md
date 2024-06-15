@@ -88,6 +88,11 @@ pip install -r requirements.txt
 
 ~~~
 {DVD ROOT}
+|-- data
+|   |--meta_info
+|   |  |-- meta_info_GoPro_train_frames_seq.txt
+|   |  |-- meta_info_GoPro_test_frames_seq.txt
+|   |  |-- meta_info_GoPro_val_frames_seq.txt
 |-- datasets
 |   |-- foggy_video
 |   |   |-- train_video
