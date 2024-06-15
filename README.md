@@ -26,7 +26,7 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 ## GoProHazy, DrivingHazy, InternetHazy (real-world hazy video datasets)
 
-<img src = "figs/collection-device.png" width='400' height='200'><img src = "figs/collection-method.png" width='400' height='200'>
+<img src = "figs/collection-device.png" width='410' height='200'><img src = "figs/collection-method.png" width='410' height='200'>
 
 
 To collect pairs of hazy/clear video pairs, follow these steps: 
