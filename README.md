@@ -8,7 +8,8 @@
 [Jun Li](https://sites.google.com/view/junlineu/),
 [Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)
 
-PCA Lab, Nanjing University of Science and Technology, China
+PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
+
 
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2405.09996)
 [![Website](figs/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DVD/index.html)
@@ -22,6 +23,18 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 <img src = "figs/pipeline.png" width='840' height='300'>
 
+
+## GoProHazy, DrivingHazy, InternetHazy (real-world hazy video datasets)
+
+
+
+To collect pairs of hazy/clear video pairs, follow these steps: 
+1). As illustrated in Collection Method (a), we capture hazy videos in various scenes under hazy weather conditions. 
+2). In Collection Method (b), to maintain consistent scene brightness, we choose overcast days with good visibility for capturing clear video pairs. 
+    Additionally, to ensure the reference clear video matches the hazy scene, we align clear video capture with the starting point of the hazy videos. 
+3). Video cropping is employed to ensure that the starting and ending points of the collected hazy/clear video pairs are consistent.
+
+
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
 environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
@@ -34,7 +47,7 @@ https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a
 - Python == 3.9
 - PyTorch == 1.11 with CUDA 11.3
 - torchvision ==0.12.0
-- conda 4.12)
+- conda 4.12
 
 ## 🎓 Citation
 If you are interested in this work, please consider citing:
