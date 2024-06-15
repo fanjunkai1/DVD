@@ -88,11 +88,6 @@ pip install -r requirements.txt
 
 ~~~
 {DVD ROOT}
-|-- data
-|   |--meta_info
-|   |  |-- meta_info_GoPro_train_frames_seq.txt
-|   |  |-- meta_info_GoPro_test_frames_seq.txt
-|   |  |-- meta_info_GoPro_val_frames_seq.txt
 |-- datasets
 |   |-- foggy_video
 |   |   |-- train_video
@@ -122,7 +117,11 @@ pip install -r requirements.txt
 |   |   |   |   |-- ...
 |   |   |   |-- ValMatchFrames
 |   |   |   |   |-- ...
-
+|-- data
+|   |--meta_info
+|   |  |-- meta_info_GoPro_train_frames_seq.txt
+|   |  |-- meta_info_GoPro_test_frames_seq.txt
+|   |  |-- meta_info_GoPro_val_frames_seq.txt
 |-- pre_dehazing
 |   |-- models
 |   |   |-- remove_hazy_model_256x256.pth
