@@ -78,11 +78,11 @@ pip install -r requirements.txt
 
 1. Downloading pre-trained checkpoints
 
-| Model              | Description                                                                           | :link: Download Links    |
-|  :-----:           |  :---------------------------------------------------------------------------------:  | :----------------------: |
+| Model              | Description                                                                                                                                 | :link: Download Links    |
+|  :-----:           |  :---------------------------------------------------------------------------------:                                                        | :----------------------: |
 |   Optical Flow     |   By utilizing pre-trained optical flow to guide initial position sampling, enhance the receptive field of cosine similarity calculation.   | <a href="">Baidu Disk</a>|
-|   Frame Dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.   | <a href="">Baidu Disk</a>|
-|   Video Dehazing   |   Video dehazing module trained on video frame sequence data.                         | <a href="">Baidu Disk</a>|
+|   Frame Dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.                                                         | <a href="">Baidu Disk</a>|
+|   Video Dehazing   |   Video dehazing module trained on video frame sequence data.                                                                               | <a href="">Baidu Disk</a>|
 
 
 2. Organize data for training, using GoProHazy as an example, as follow:
