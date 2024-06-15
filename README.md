@@ -70,6 +70,9 @@ conda activate DVD
 pip install -r requirements.txt
 ```
 
+## :rocket: Get Started
+
+
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
 environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
