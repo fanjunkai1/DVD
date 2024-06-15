@@ -26,7 +26,7 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 <img src = "figs/pipeline.png" width='840' height='300'>
 
-## Our Environment
+## 🛠️ Setup
 - Ubuntu 18.04
 - Python == 3.9
 - PyTorch == 1.11 with CUDA 11.3
