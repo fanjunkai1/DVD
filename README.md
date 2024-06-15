@@ -34,7 +34,7 @@ https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a
 - Python == 3.9
 - PyTorch == 1.11 with CUDA 11.3
 - torchvision ==0.12.0
-- conda 4.12)
+- conda 4.12
 
 ## 🎓 Citation
 If you are interested in this work, please consider citing:
