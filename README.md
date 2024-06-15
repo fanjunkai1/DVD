@@ -17,4 +17,5 @@ This repository represents the official implementation of the paper titled "Driv
 https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
 
 
-
+## Our pipeline
+<img src = "figs/pipeline.png" width='800' height='300'>
