@@ -6,7 +6,8 @@
 [Yijun Yang](https://yijun-yang.github.io/),
 [Jianjun Qian](http://www.patternrecognition.asia/qian/),
 [Jun Li<sup>*</sup>](https://sites.google.com/view/junlineu/),
-[Jian Yang<sup>*</sup>](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN) (* indicates corresponding author)
+[Jian Yang<sup>*</sup>](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)   
+(* indicates corresponding author)
 
 PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 
@@ -153,7 +154,18 @@ CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=
 ```
 
 
-### Inference ###
+## ⚡ Inference DVD
+
+Firstly, place the trained model in the `checkpoint/DVD` folder, then place the video frames to be tested in the `input_video_frame` folder, and check the inference results in the `out_video_frame` folder.
+```
+python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_g_latest.pth
+--input_path input_video_frame
+--dehazing_model_path pre_dehazing/models/remove_hazy_model_256x256.pth
+--save_path out_video_frame
+```
+
+## 📊 Results
+
 
 
 ## 🎬 Video demo
@@ -184,8 +196,8 @@ If you are interested in this work, please consider citing:
 }
 ```
 
-## Acknowledgment
+## 🤗 Acknowledgment
 This code is based on the [BasicSR](https://github.com/XPixelGroup/BasicSR). Thank them for their outstanding work.
 
-## Contact
+## 📧 Contact
 Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
