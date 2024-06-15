@@ -23,6 +23,12 @@ Our method effectively trains the video dehazing network using real-world hazy a
 
 <img src = "figs/pipeline.png" width='840' height='300'>
 
+
+## GoProHazy, DrivingHazy, InternetHazy (real-world hazy video datasets)
+
+
+
+
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
 environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
