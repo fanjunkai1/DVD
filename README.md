@@ -164,6 +164,9 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 --save_path out_video_frame
 ```
 
+## 📊 Results
+
+
 
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
