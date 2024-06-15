@@ -142,7 +142,9 @@ python generate_meta_info.py --hazyframe_path ./datasets/foggy_video/train_video
 --clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe
 --save_meta_info_path ./data/meta_info/meta_info_GoPro_train_frames_seq.txt
 ```
-
+```
+CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 train.py -opt options/train/train_DVD.yml --launcher pytorch
+```
 
 
 ### Inference ###
