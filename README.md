@@ -87,15 +87,15 @@ pip install -r requirements.txt
 <tbody>
 <tr>
     <td>frame dehazing</td>
-    <th>Frame dehazing module was pre-trained on image data.</th>
+    <th>Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.</th>
     <th rowspan="3">
-    [<a href="">Google Drive</a>] 
     [<a href="">Baidu Disk</a>]
     </th>
 </tr>
 <tr>
     <td>video dehazing</td>
     <th>Video dehazing module trained on video frame sequence data.</th>
+    [<a href="">Baidu Disk</a>]
 </tr>
 </tbody>
 </table>
