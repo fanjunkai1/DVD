@@ -143,11 +143,11 @@ python generate_meta_info.py --hazyframe_path ./datasets/foggy_video/train_video
 ```
 ## 🏋️ Training and Testing
 
-Train DVD by
+Train our DVD by
 ```
 CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 train.py -opt options/train/train_DVD.yml --launcher pytorch
 ```
-
+Test our DVD by
 ```
 CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=2 --master_port=4321 test.py -opt options/test/test_DVD.yml --launcher pytorch
 ```
