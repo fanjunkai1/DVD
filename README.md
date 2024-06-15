@@ -121,7 +121,11 @@ pip install -r requirements.txt
 |   |   |   |-- ValClipsFrames
 |   |   |   |   |-- ...
 |   |   |   |-- ValMatchFrames
-|   |   |   |   |-- ... 
+|   |   |   |   |-- ...
+
+|-- pre_dehazing
+|   |-- models
+|   |   |-- remove_hazy_model_256x256.pth
 ~~~
 
 **Note**: for organizing the data structure above, you can use the script we provide with the following commands:
