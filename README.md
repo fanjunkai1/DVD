@@ -104,12 +104,27 @@ pip install -r requirements.txt
 |   |   |   |   |   |   |-- 00001
 |   |   |   |   |   |   |   |-- frame_0_clear.jpg
 |   |   |   |   |   |   |   |-- frame_1_clear.jpg
+|   |   |   |   |   |   |-- ...
+
 |   |   |   |-- TrainMatchFrames   
-|   |   |   |-- ...
-|   |   |-- val_video
-|   |   |   |-- ...
-|   |   |-- test_video
-|   |   |   |-- ...
+|   |   |   |   |-- 1_hazy&clear_frames.txt
+|   |   |   |   |-- ...
+
+|   |   |   |-- ValClipsFrames
+|   |   |   |   |-- hazyframe_seq
+|   |   |   |   |   |-- 00001_hazyframe_seq
+|   |   |   |   |   |   |-- 00024
+|   |   |   |   |   |   |   |-- frame_0_hazy.jpg
+|   |   |   |   |   |   |   |-- frame_1_hazy.jpg
+|   |   |   |   |   |   |-- ...
+
+|   |   |   |   |-- clearframe
+|   |   |   |   |   |-- 00001_clearframe
+|   |   |   |   |   |   |-- 00024
+|   |   |   |   |   |   |   |-- frame_0_clear.jpg
+|   |   |   |   |   |   |   |-- frame_1_clear.jpg
+|   |   |   |   |   |   |-- ...
+
 ~~~
 
 
