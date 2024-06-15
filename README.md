@@ -29,7 +29,7 @@ Our method effectively trains the video dehazing network using real-world hazy a
 <img src = "figs/pipeline.png" width='840' height='300'>
 
 
-## GoProHazy, DrivingHazy, InternetHazy (real-world hazy video datasets)
+## GoProHazy, DrivingHazy (real-world hazy video datasets)
 
 <img src = "figs/collection-device.png" width='410' height='200'><img src = "figs/collection-method.png" width='410' height='200'>
 
