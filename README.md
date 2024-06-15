@@ -119,7 +119,10 @@ pip install -r requirements.txt
 |   |   |   |   |-- ... 
 ~~~
 
-**Note**: For organizing the structure of the data above, you can use the script we provide for organization. The commands are as follows:
+**Note**: for organizing the data structure above, you can use the script we provide with the following commands:
+
+
+
 
 
 ### Inference ###
