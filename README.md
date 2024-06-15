@@ -156,7 +156,7 @@ CUDA_VISIBLE_DEVICES=0,1 python3.9 -m torch.distributed.launch --nproc_per_node=
 
 ## ⚡ Inference DVD
 
-Firstly, place the trained model in the checkpoint/DVD folder, then place the video frames to be tested in the input_video_frame folder, and check the inference results in the out_video_frame folder.
+Firstly, place the trained model in the <font color=#0000ff>checkpoint/DVD</font> folder, then place the video frames to be tested in the <font color=#0000ff>input_video_frame</font> folder, and check the inference results in the <font color=#0000ff>out_video_frame</font> folder.
 ```
 python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_g_latest.pth
 --input_path input_video_frame
