@@ -84,7 +84,7 @@ pip install -r requirements.txt
 
 
 2. Organize data for training, using GoPro as an example, as follow:
-~~~
+
 * **GoProHazy**
 ~~~
 {DVD ROOT}
