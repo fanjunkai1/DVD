@@ -48,7 +48,7 @@ To collect pairs of hazy/clear video pairs, follow these steps:
 
 **Our real-world hazy video dataset can be downloaded here:**
 [GoProHazy](),
-[DrivingHazy]().
+[DrivingHazy](),
 [InternetHazy]()
 
 
