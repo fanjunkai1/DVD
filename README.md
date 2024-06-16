@@ -21,8 +21,8 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
 ## :fire: Updates
-
-- [06/2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
+- [16-06-2024] Added train and inference code (this repository).
+- [15-06-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
 
 ## :mega: Pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
