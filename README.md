@@ -1,4 +1,4 @@
-![image](https://github.com/fanjunkai1/DVD/assets/138647972/90ee19db-ae0a-4517-95dc-409805c4492b)# DVD: Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance (CVPR 2024)
+# DVD: Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance (CVPR 2024)
 
 [Junkai Fan](https://fanjunkai1.github.io/),
 [Jiangwei Weng](https://wengjiangwei.github.io/),
