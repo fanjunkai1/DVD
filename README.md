@@ -163,7 +163,7 @@ Firstly, place the trained model in the `checkpoint/DVD` folder, then place the 
 python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_g_latest.pth
 --input_path input_video_frame
 --dehazing_model_path pre_dehazing/models/remove_hazy_model_256x256.pth
---save_path out_video_frame
+--save_path output_video_frame
 ```
 
 ## 📊 Results
