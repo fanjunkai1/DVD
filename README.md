@@ -172,6 +172,10 @@ Quantitative results on three real-world hazy video datasets. ↓ denotes the lo
 to PM-Net and MAP-Net rely on GT for training, we use Lcx to train them on GoProHazy dataset. Note that we only selected the latest
 dehazing methods (i.e., RIDCP, PM-Net and MAP-Net) and our DVD for the user study. Moreover, DrivingHazy and InternetHazy were
 tested on dehazing models trained using GoProHazy and pre-trained dehazing models provided by the authors, respectively.
+<br><br>
+<img src = "figs/GoProHazy-Results.png" width='840' height='200'>
+Overall, our method exhibits superior brightness and texture details compared to other SOTA techniques. Notably, D4 and RIDCP fail to eliminate distant haze, with RIDCP additionally displaying color distortion. While PM-Net and MAP-Net successfully clear distant haze, they compromise on texture details, resulting in blurred images.
+
 
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
