@@ -72,7 +72,16 @@ conda activate DVD
 
 # install python dependencies
 pip install -r requirements.txt
+
+# install DCN V2
+cd ops/DCNv2
+python setup.py build develop # build
+python test.py # run examples and check
+
 ```
+
+
+**Note** 
 
 ## :rocket: Get Started
 
@@ -114,15 +123,8 @@ pip install -r requirements.txt
 |   |   |   |   |-- 1_hazy&clear_frames.txt
 |   |   |   |   |-- ...
 |   |   |-- test_video
-|   |   |   |-- TestClipsFrames
-|   |   |   |   |-- ...
-|   |   |   |-- TestMatchFrames
-|   |   |   |   |-- ...
 |   |   |-- val_video
-|   |   |   |-- ValClipsFrames
-|   |   |   |   |-- ...
-|   |   |   |-- ValMatchFrames
-|   |   |   |   |-- ...
+
 |-- data
 |   |--meta_info
 |   |  |-- meta_info_GoPro_train_frames_seq.txt
@@ -161,12 +163,15 @@ Firstly, place the trained model in the `checkpoint/DVD` folder, then place the 
 python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_g_latest.pth
 --input_path input_video_frame
 --dehazing_model_path pre_dehazing/models/remove_hazy_model_256x256.pth
---save_path out_video_frame
+--save_path output_video_frame
 ```
 
 ## 📊 Results
-
-
+<img src = "figs/results.png" width='840' height='260'>
+Quantitative results on three real-world hazy video datasets. ↓ denotes the lower the better. ↑ denotes the higher the better. Due
+to PM-Net and MAP-Net rely on GT for training, we use Lcx to train them on GoProHazy dataset. Note that we only selected the latest
+dehazing methods (i.e., RIDCP, PM-Net and MAP-Net) and our DVD for the user study. Moreover, DrivingHazy and InternetHazy were
+tested on dehazing models trained using GoProHazy and pre-trained dehazing models provided by the authors, respectively.
 
 ## 🎬 Video demo
 To validate the stability of our video dehazing results, we present a video result captured in a real driving
