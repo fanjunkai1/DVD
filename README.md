@@ -167,7 +167,7 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 ```
 
 ## 📊 Results
-<img src = "figs/results.png" width='840' height='280'>
+<img src = "figs/results.png" width='840' height='260'>
 Quantitative results on three real-world hazy video datasets. ↓ denotes the lower the better. ↑ denotes the higher the better. Due
 to PM-Net and MAP-Net rely on GT for training, we use Lcx to train them on GoProHazy dataset. Note that we only selected the latest
 dehazing methods (i.e., RIDCP, PM-Net and MAP-Net) and our DVD for the user study. Moreover, DrivingHazy and InternetHazy were
