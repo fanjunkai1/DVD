@@ -87,9 +87,9 @@ python test.py # run examples and check
 
 | Model              | Description                                                                                                                                 | :link: Download Links    |
 |  :-----:           |  :---------------------------------------------------------------------------------:                                                        | :----------------------: |
-|   Optical Flow (fine-tuning)    |   By utilizing pre-trained optical flow to guide initial position sampling, enhance the receptive field of cosine similarity calculation.   | <a href="">Baidu Disk</a>|
-|   Frame Dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.                                                         | <a href="">Baidu Disk</a>|
-|   Video Dehazing   |   Video dehazing module trained on video frame sequence data.                                                                               | <a href="">Baidu Disk</a>|
+|   Optical Flow     |   By utilizing pre-trained optical flow to guide initial position sampling, enhance the receptive field of cosine similarity calculation.   | <a href="https://pan.baidu.com/s/1TUqDyS-aC4gsXx_jsHU6Uw">Baidu Disk(kbsx)</a>|
+|   Frame Dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.                                                         | <a href="https://pan.baidu.com/s/1-oUjK5b7-HodBW5Q4neg2A">Baidu Disk(q6ns)</a>|
+|   Video Dehazing   |   Video dehazing module trained on video frame sequence data.                                                                               | <a href="https://pan.baidu.com/s/1TykN4CyoIjvEdR7DwqqIVw">Baidu Disk(7w8f)</a>|
 
 
 2. Organize data for training, using GoProHazy as an example, as follow:
