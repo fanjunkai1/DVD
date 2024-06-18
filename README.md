@@ -166,7 +166,7 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 **Note**：We have provided a video frame in the `input_video_frame` folder, which can be used to test our model.
 
 ## 📊 Results
-<img src = "figs/results.png" width='800' height='200'>
+<img src = "figs/results.png" width='840' height='200'>
 
 Quantitative results on three real-world hazy video datasets. ↓ denotes the lower the better. ↑ denotes the higher the better. Due
 to PM-Net and MAP-Net rely on GT for training, we use Lcx to train them on GoProHazy dataset. Note that we only selected the latest
