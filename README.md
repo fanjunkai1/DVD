@@ -174,7 +174,7 @@ dehazing methods (i.e., RIDCP, PM-Net and MAP-Net) and our DVD for the user stud
 tested on dehazing models trained using GoProHazy and pre-trained dehazing models provided by the authors, respectively.
 <br><br>
 <img src = "figs/GoProHazy.png" width='840' height='200'>
-<img src = "figs/DrivingHazy-Results.png" width='840' height='200'>
+<img src = "figs/DrivingHazy.png" width='840' height='200'>
 
 Overall, our method exhibits superior brightness and texture details compared to other SOTA techniques. Notably, D4 and RIDCP fail to eliminate distant haze, with RIDCP additionally displaying color distortion. While PM-Net and MAP-Net successfully clear distant haze, they compromise on texture details, resulting in blurred images.
 
