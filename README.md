@@ -21,6 +21,7 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
 ## :fire: Updates
+- [18-06-2024] We released pre-trained models, including optical flow, frame dehazing, and video dehazing models.
 - [16-06-2024] Added train and inference code (this repository).
 - [15-06-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
 
@@ -77,7 +78,6 @@ pip install -r requirements.txt
 cd ops/DCNv2
 python setup.py build develop # build
 python test.py # run examples and check
-
 ```
 
 
@@ -163,6 +163,7 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 --dehazing_model_path pre_dehazing/models/remove_hazy_model_256x256.pth
 --save_path output_video_frame
 ```
+**Note**：We have provided a video frame in the `input_video_frame` folder, which can be used to test our model.
 
 ## 📊 Results
 <img src = "figs/results.png" width='840' height='260'>
