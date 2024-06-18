@@ -81,15 +81,13 @@ python test.py # run examples and check
 ```
 
 
-**Note** 
-
 ## :rocket: Get Started
 
 1. Downloading pre-trained checkpoints
 
 | Model              | Description                                                                                                                                 | :link: Download Links    |
 |  :-----:           |  :---------------------------------------------------------------------------------:                                                        | :----------------------: |
-|   Optical Flow     |   By utilizing pre-trained optical flow to guide initial position sampling, enhance the receptive field of cosine similarity calculation.   | <a href="">Baidu Disk</a>|
+|   Optical Flow (fine-tuning)    |   By utilizing pre-trained optical flow to guide initial position sampling, enhance the receptive field of cosine similarity calculation.   | <a href="">Baidu Disk</a>|
 |   Frame Dehazing   |   Frame dehazing module was pre-trained on misaligned hazy/clear image paired data.                                                         | <a href="">Baidu Disk</a>|
 |   Video Dehazing   |   Video dehazing module trained on video frame sequence data.                                                                               | <a href="">Baidu Disk</a>|
 
