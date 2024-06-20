@@ -32,6 +32,8 @@ environment and compare it with the latest video dehazing state-of-the-art metho
 
 https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
 
+<br><br>
+
 ## :mega: Pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
 
