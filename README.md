@@ -26,6 +26,12 @@ This repository represents the official implementation of the paper titled "Driv
 - [16-06-2024] Added train and inference code (this repository).
 - [15-06-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
 
+## 🎬 Video demo
+To validate the stability of our video dehazing results, we present a video result captured in a real driving
+environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
+
+https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
+
 ## :mega: Pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
 
@@ -178,14 +184,6 @@ tested on dehazing models trained using GoProHazy and pre-trained dehazing model
 <img src = "figs/DrivingHazy.png" width='840' height='200'>
 
 Overall, our method exhibits superior brightness and texture details compared to other SOTA techniques. Notably, D4 and RIDCP fail to eliminate distant haze, with RIDCP additionally displaying color distortion. While PM-Net and MAP-Net successfully clear distant haze, they compromise on texture details, resulting in blurred images.
-
-
-## 🎬 Video demo
-To validate the stability of our video dehazing results, we present a video result captured in a real driving
-environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
-
-https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
-
 
 
 ## 🎓 Citation
