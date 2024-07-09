@@ -15,15 +15,25 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2405.09996)
 [![Website](figs/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DVD/index.html)
 [![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=BHFVx8yv4SY)
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [[Poster](figs/DVD_poster.pdf)]
 
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
 ## :fire: Updates
+- [18-06-2024] Updated license to Apache License, Version 2.0.
 - [18-06-2024] We released pre-trained models, including optical flow, frame dehazing, and video dehazing models.
 - [16-06-2024] Added train and inference code (this repository).
 - [15-06-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
+
+## 🎬 Video demo
+To validate the stability of our video dehazing results, we present a video result captured in a real driving
+environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
+
+https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
+
+<br><br>
 
 ## :mega: Pipeline
 Our method effectively trains the video dehazing network using real-world hazy and clear videos without requiring strict alignment, resulting in high-quality results.
@@ -166,7 +176,7 @@ python inference_single_video.py --visual_enhance_model_path checkpoint/DVD/net_
 **Note**：We have provided a video frame in the `input_video_frame` folder, which can be used to test our model.
 
 ## 📊 Results
-<img src = "figs/results.png" width='800' height='200'>
+<img src = "figs/results.png" width='840' height='220'>
 
 Quantitative results on three real-world hazy video datasets. ↓ denotes the lower the better. ↑ denotes the higher the better. Due
 to PM-Net and MAP-Net rely on GT for training, we use Lcx to train them on GoProHazy dataset. Note that we only selected the latest
@@ -177,14 +187,6 @@ tested on dehazing models trained using GoProHazy and pre-trained dehazing model
 <img src = "figs/DrivingHazy.png" width='840' height='200'>
 
 Overall, our method exhibits superior brightness and texture details compared to other SOTA techniques. Notably, D4 and RIDCP fail to eliminate distant haze, with RIDCP additionally displaying color distortion. While PM-Net and MAP-Net successfully clear distant haze, they compromise on texture details, resulting in blurred images.
-
-
-## 🎬 Video demo
-To validate the stability of our video dehazing results, we present a video result captured in a real driving
-environment and compare it with the latest video dehazing state-of-the-art method, MAP-Net.
-
-https://github.com/fanjunkai1/DVD/assets/138647972/05eda045-7122-412b-87c0-8ba6a49fadc1.mp4
-
 
 
 ## 🎓 Citation
@@ -212,3 +214,11 @@ This code is based on the [BasicSR](https://github.com/XPixelGroup/BasicSR). Tha
 
 ## 📧 Contact
 Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
+
+## 🎫 License
+
+This work is licensed under the Apache License, Version 2.0 (as defined in the [LICENSE](LICENSE.txt)).
+
+By downloading and using the code and model you agree to the terms in the  [LICENSE](LICENSE.txt).
+
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
