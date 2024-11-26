@@ -64,6 +64,8 @@ To collect pairs of hazy/clear video pairs, follow these steps:
 [DrivingHazy](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw) (ei4j),
 [InternetHazy](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g) (p39a)
 
+[Google driver](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
+
 
 
 ## :hammer: Installation
