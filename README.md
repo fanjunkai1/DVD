@@ -17,7 +17,6 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 [![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=BHFVx8yv4SY)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
-[[Poster](figs/DVD_poster.pdf)]
 
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
