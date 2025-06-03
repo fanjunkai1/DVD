@@ -17,13 +17,13 @@ PCA Lab, Nanjing University of Science and Technology; HKUST(GZ)
 [![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=BHFVx8yv4SY)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
-[[Poster](figs/DVD_poster.pdf)]
 
 This repository represents the official implementation of the paper titled "Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance".
 
 ## :fire: Updates
+- [18-08-2024] We have released the GoProHazy dataset, DrivingHazy dataset, and InternetHazy dataset.
 - [18-06-2024] Updated license to Apache License, Version 2.0.
-- [18-06-2024] We released pre-trained models, including optical flow, frame dehazing, and video dehazing models.
+- [18-06-2024] We have released pre-trained models, including optical flow, frame dehazing, and video dehazing models.
 - [16-06-2024] Added train and inference code (this repository).
 - [15-06-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DVD/index.html) and the GitHub README.
 
@@ -59,9 +59,11 @@ To collect pairs of hazy/clear video pairs, follow these steps:
 3). Video cropping is employed to ensure that the starting and ending points of the collected hazy/clear video pairs are consistent.
 
 **Our real-world hazy video dataset can be downloaded here:**
-[GoProHazy](),
-[DrivingHazy](),
-[InternetHazy]()
+[GoProHazy](https://pan.baidu.com/s/1u_jFzZtUhG1528e1kkGmUQ) (hbih),
+[DrivingHazy](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw) (ei4j),
+[InternetHazy](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g) (p39a)
+
+**For users who use Google Drive, you can download our dataset using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)**
 
 
 
@@ -142,12 +144,14 @@ python test.py # run examples and check
 
 **Note**: For organizing the data structure above, you can use the script we provide with the following commands:
 ```
+cd prepare_data
 python reorganize_data.py --input_frames_num 2  
 --index_txt_path ./datasets/foggy_video/train_video/TrainMatchFrames
 --save_hazyframe_seq_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq  
 --save_clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe
 ```
 ```
+cd prepare_data
 python generate_meta_info.py --hazyframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/hazyframe_seq
 --clearframe_path ./datasets/foggy_video/train_video/TrainClipsFrames/clearframe
 --save_meta_info_path ./data/meta_info/meta_info_GoPro_train_frames_seq.txt
